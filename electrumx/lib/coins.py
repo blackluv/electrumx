@@ -4251,7 +4251,7 @@ class FerriteTestnet(Ferrite):
                         '91fa32f4591d8d3043cb4fa9e551541b')
         DESERIALIZER = lib_tx.DeserializerSegWit
         TX_COUNT = 50792939
-        TX_COUNT_HEIGHT = 1178612
+        TX_COUNT_HEIGHT = 42000
         TX_PER_BLOCK = 43
         RPC_PORT = 9918
         REORG_LIMIT = 5000
