@@ -4247,7 +4247,7 @@ class Luckycoin(Coin):
     P2PKH_VERBYTE = bytes.fromhex("47")
     P2SH_VERBYTES = (bytes.fromhex("05"),)
     WIF_BYTE = bytes.fromhex("176")
-    GENESIS_HASH =('9b7bce58999062b63bfb18586813c424'
+    GENESIS_HASH = ('9b7bce58999062b63bfb18586813c424'
                     '91fa32f4591d8d3043cb4fa9e551541b')
     DESERIALIZER = lib_tx.DeserializerSegWit
     TX_COUNT = 264129
